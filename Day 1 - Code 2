@@ -1,0 +1,19 @@
+#Include <stdio.h>
+
+int main() {
+  int a, b;
+  printf("Enter the value of first number:");
+  scanf("%d\n", &a);
+  printf("Enter the value of second number:");
+  scanf("%d\n", &b);
+  printf("Sum = %d\n", a+b);
+  printf("Diffrence = %d\n", a-b);
+  printf("Product = %d\n", a*b);
+  if(b!=0)
+  printf("Quotient = %d\n", a/b);
+  else
+  printf("Quotient = the value doesn't exist"0;
+
+  return 0;
+
+         }
